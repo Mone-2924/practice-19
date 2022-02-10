@@ -1,0 +1,263 @@
+body {
+    font-family: 'Istok Web', sans-serif;
+}
+
+a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header {
+    background: rgba(119, 91, 163, 0.63);
+    border-top: 2px solid #a997c5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 500;
+    width: 100%;
+}
+
+.header .navbar-nav .nav-link {
+    font-size: 14px;
+    padding: 0.5rem 5px;
+    color: #fff;
+    border-bottom: 2px solid transparent;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.header .navbar-nav .nav-link:hover {
+    border-color: #f8e1b4;
+    color: #fff;
+}
+
+.navbar-nav {
+    margin-left: -5px;
+
+}
+
+.user-btn {
+    background: transparent;
+    border: none;
+    color: #fff;
+}
+
+.line {
+    border-color: rgba(225, 225, 225, 0.5);
+}
+
+.main-carousel {
+    z-index: 1;
+}
+
+.main-carousel .carousel-indicators li {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    background: transparent;
+    opacity: 1;
+}
+
+.main-carousel .carousel-indicators li:active {
+    background: #fff;
+    width: 14px;
+    height: 14px;
+    margin-top: 2px;
+}
+
+.info {
+    padding: 100px 0;
+}
+
+.title {
+    font-size: 25px;
+    color: #775ba3;
+    font-weight: bold;
+}
+
+.info p {
+    font-size: 14px;
+}
+
+.card-title {
+    border-top: 2px solid #91c5a9;
+    border-bottom: 2px solid #91c5a9;
+    color: #91c5a9;
+    font-size: 15px;
+    font-weight: 15px;
+}
+
+.card-text {
+    font-size: 13px;
+}
+
+.f {
+    background: #3b5998;
+}
+
+.g {
+    background: #d14333;
+}
+
+.db {
+    background: #ea4c88;
+}
+
+.t {
+    background: #00aced;
+}
+
+.y {
+    background: #c70c0c;
+}
+
+.icon i {
+    font-size: 30px;
+    color: #fff;
+}
+
+.feature-block {
+    background: #775ba3;
+}
+
+.feature-title {
+    font-size: 25px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.feature-col-title {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.feature-col-title span {
+    display: block;
+}
+
+.feature-col-btn {
+    font-size: 18px;
+    padding: 10px 60px;
+    border: 4px solid #fff;
+    color: #fff;
+    display: inline-block;
+}
+
+.client-link {
+    display: inline-block;
+    border-radius: 50%;
+    border: 4px solid #91c5a9;
+    padding: 8px;
+    position: relative;
+}
+
+.client-link::before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 13px 11px 13px;
+    border-color: transparent transparent #91c5a9 transparent;
+    position: absolute;
+    transform: rotate(-67deg);
+    top: 50px;
+    right: -17px;
+}
+
+@media (min-width: 768px) {
+    .client-link {
+        display: block;
+    }
+}
+
+.client-img {
+    border-radius: 50%;
+    max-width: 100%;
+}
+
+.client-slide .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 3px solid #91c5a9;
+    background: transparent;
+    opacity: 1;
+}
+
+.client-slide .carousel-indicators li:active {
+    background: #91c5a9;
+    width: 10px;
+    height: 10px;
+}
+
+.review {
+    font-size: 20px;
+    color: #4b3f55;
+    position: relative;
+    padding: 35px 10px;
+}
+
+.review::before {
+    content: '';
+    width: 23px;
+    height: 17px;
+    background: url(../images/open-quotation-mark.png);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.review::after {
+    content: '';
+    width: 23px;
+    height: 17px;
+    background: url(../images/close-quotation-mark.png);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.author {
+    color: #7e63a8;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.footer {
+    background: #54865d;
+    border-bottom: 2px solid #fff;
+}
+
+.footer_text {
+    font-size: 14px;
+    color: #fff;
+}
+
+.modal-body {
+    text-align: center;
+}
+
+.modal-body input {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    padding-left: 20px;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+.form-a,
+.form-a:hover {
+    display: block;
+    color: #775ba3;
+}
+
+.form-btn {
+    font-size: 18px;
+    padding: 5px 40px;
+    background: #775ba3;
+    color: #ffffff;
+    display: inline-block;
+}
